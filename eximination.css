@@ -110,9 +110,14 @@ a {
 
 /* Color on desktop */
 
-a:visited {
+a {
     color: #563b30;
 }
+
+a:hover {
+    color: #7f886a;
+}
+
 
 #colorhome {
     font-weight: bold;
