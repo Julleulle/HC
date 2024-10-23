@@ -19,6 +19,7 @@
 }
 
 
+
 /* Body */
 
 body{
@@ -28,6 +29,7 @@ body{
 .background-galleri {
     background-color: #f8f8f8;
 }
+
 
 
 /* Header */
@@ -51,6 +53,7 @@ body{
 header {
     padding-top: 40px;
     padding-bottom: 40px;
+    
 }
 
 .logo {
@@ -68,10 +71,11 @@ a {
 } 
 
 
+
 /* Hover on desktop */
 
 .hem {
-    transition: 0,3s ease;
+    transition: 0.3s ease;
 }
 
 .hem:hover {
@@ -79,7 +83,7 @@ a {
 }
 
 .ommig {
-    transition: 0,3s ease;
+    transition: 0.3s ease;
 }
 
 .ommig:hover {
@@ -87,7 +91,7 @@ a {
 }
 
 .galleri {
-    transition: 0,3s ease;
+    transition: 0.3s ease;
 }
 
 .galleri:hover {
@@ -95,12 +99,13 @@ a {
 }
 
 .kontakt {
-    transition: 0,3s ease;
+    transition: 0.3s ease;
 }
 
 .kontakt:hover {
     transform: scale(1.1);
 }
+
 
 
 /* Color on desktop */
@@ -199,6 +204,7 @@ p {
 }
 
 
+
 /*  Color Palette  */
 
 .colorpalette-h1 {
@@ -249,7 +255,6 @@ p {
     gap: 30px;
     
 }
-
 
 .contact-me {
     display: flex;
@@ -328,6 +333,10 @@ h2 {
 
     .contact-h1 {
         font-size: 2rem;
+    }
+
+    .ml-20 {
+        margin-left: auto;
     }
 }
 
